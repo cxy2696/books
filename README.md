@@ -4,12 +4,6 @@
 
 当前收录 **63 个 PDF**，合计约 **493 MiB**。
 
-> 仓库体积较大，建议使用浅克隆，避免下载完整历史：
->
-> ```bash
-> git clone --depth 1 https://github.com/cxy2696/books.git
-> ```
-
 ## 目录结构
 
 | 目录 | 内容 | 数量 |
@@ -197,9 +191,5 @@
 
 - 按主题归档，统一命名为 `书名 (版本, 作者).pdf`；论文采用 `标题 (作者, 年份).pdf`。
 - 原 `书/`、`LaTeX/`、`Paper Reading/` 目录下的文件已并入对应主题。
-- 删除了 3 个内容完全相同的重复文件（Git blob 一致）：
-  - `2024.gym.vldb.pdf` → 保留 `papers/databases/Hit the Gym ...`
-  - `书/7-Principles-of-Econometrics-4th-Ed.-R.Carter-Hill-et.al_.-1.pdf` → 保留根目录版本
-  - `书/Algorithms-JeffE.pdf` → 保留根目录版本
 - 文件名中的作者、版本等信息来自 PDF 元数据、封面或首页；部分讲义、草稿与中文译本未逐页核对版权页。
 - 所有资料版权归原作者及出版方所有，仅供个人学习研究使用，请勿用于商业用途。

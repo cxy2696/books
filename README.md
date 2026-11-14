@@ -2,7 +2,7 @@
 
 个人电子书与论文资料库，按主题分类整理，涵盖计算机科学、数学、统计、机器学习、优化与编程等方向。
 
-当前收录 **63 个 PDF**，合计约 **493 MiB**。
+当前收录 **73 个 PDF**，合计约 **861 MiB**。
 
 ## 目录结构
 
@@ -14,6 +14,7 @@
 | [`books/machine-learning/`](books/machine-learning) | 机器学习与信息论 | 3 |
 | [`books/optimization/`](books/optimization) | 最优化、运筹与凸优化 | 7 |
 | [`books/programming/`](books/programming) | Python、R 与爬虫 | 10 |
+| [`books/cpp/`](books/cpp) | C 与 C++ 程序设计 | 10 |
 | [`books/databases/`](books/databases) | 数据库系统 | 1 |
 | [`books/networks/`](books/networks) | 网络科学与网络原理 | 3 |
 | [`books/security/`](books/security) | 密码学与网络安全 | 2 |
@@ -97,6 +98,21 @@
 | [NumPy 攻略：Python 科学计算与数据分析（中文版）](<books/programming/NumPy攻略：Python科学计算与数据分析.pdf>) | Ivan Idris | 193 | 14.3 MB |
 | [用 Python 写网络爬虫（中文版）](<books/programming/用Python写网络爬虫.pdf>) | — | 174 | 9.4 MB |
 | [YaRrr! The Pirate’s Guide to R](<books/programming/YaRrr! The Pirate’s Guide to R (Phillips).pdf>) | Nathaniel D. Phillips | 295 | 20.8 MB |
+
+### C/C++
+
+| 书名 | 作者 | 页数 | 大小 |
+| --- | --- | ---: | ---: |
+| [C Primer Plus (6th Edition)](<books/cpp/C Primer Plus (6th Edition, Prata).pdf>) | Stephen Prata | 1067 | 6.9 MB |
+| [C++ Primer Plus（第 6 版，中文版）](<books/cpp/C++ Primer Plus (第6版, 中文版, Prata).pdf>) | Stephen Prata | 956 | 253.1 MB（Git LFS） |
+| [Modern C++ Design: Generic Programming and Design Patterns Applied](<books/cpp/Modern C++ Design (Alexandrescu).pdf>) | Andrei Alexandrescu | 351 | 15.5 MB |
+| [C++ 沉思录（中文版）](<books/cpp/C++沉思录 (Koenig & Moo).pdf>) | Andrew Koenig, Barbara Moo | 417 | 16.0 MB |
+| [C++ 编程规范：101 条规则、准则与最佳实践（中文版）](<books/cpp/C++编程规范：101条规则、准则与最佳实践 (Sutter & Alexandrescu).pdf>) | Herb Sutter, Andrei Alexandrescu | 233 | 36.7 MB |
+| [大规模 C++ 程序设计（中文版·节选）](<books/cpp/大规模C++程序设计 (Lakos, 节选).pdf>) | John Lakos | 100 | 15.6 MB |
+| [多型与虚拟：Polymorphism in C++（第 2 版·节选）](<books/cpp/多型与虚拟 (侯捷, 节选).pdf>) | 侯捷 | 216 | 3.0 MB |
+| [C++ 应用程序性能优化（节选）](<books/cpp/C++应用程序性能优化 (冯宏华 等, 节选).pdf>) | 冯宏华、徐莹、程远、汪磊、左力 | 176 | 15.5 MB |
+| [0bug：C/C++ 商用工程之道](<books/cpp/0bug：C 与 C++ 商用工程之道 (肖舸).pdf>) | 肖舸 | 468 | 3.1 MB |
+| [C++ 工程实践经验谈](<books/cpp/C++工程实践经验谈 (陈硕).pdf>) | 陈硕 | 174 | 1.8 MB |
 
 ### 数据库
 
@@ -190,6 +206,8 @@
 ## 整理说明
 
 - 按主题归档，统一命名为 `书名 (版本, 作者).pdf`；论文采用 `标题 (作者, 年份).pdf`。
+- `books/cpp/` 中《C++ Primer Plus（第 6 版，中文版）》超过 GitHub 单文件 100 MB 限制，使用 Git LFS 存储；克隆后需安装 [Git LFS](https://git-lfs.com) 并执行 `git lfs pull` 才能取得原文件。
+- 《大规模 C++ 程序设计》《C++ 应用程序性能优化》《多型与虚拟》为节选扫描版（分别为 100、176、216 页），并非完整书籍。
 - 原 `书/`、`LaTeX/`、`Paper Reading/` 目录下的文件已并入对应主题。
 - 文件名中的作者、版本等信息来自 PDF 元数据、封面或首页；部分讲义、草稿与中文译本未逐页核对版权页。
 - 所有资料版权归原作者及出版方所有，仅供个人学习研究使用，请勿用于商业用途。
